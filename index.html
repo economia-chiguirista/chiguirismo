@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Escuela de Economia Chigüirista</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="img/carpincho.ico" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto&subset=latin,devanagari'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
+
+  <header class="navbar-fixed">
+    <nav class="row black">
+      <div class="col s12">
+        <ul class="right">
+          <li class="right">
+            <a href="https://twitter.com/esc_chiguirista" target="_blank" class="fa fa-twitter-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+          </li>
+          <li class="right">
+            <a href="" target="_blank" class="fa fa-github-square fa-2x waves-effect waves-light"><span class="icon-text"></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="valign-wrapper white">
+    <span class="container red-text text-darken-4">
+
+      <p class="flow-text">Bienvenidos</p>
+      <h1 class="title red-text text-darken-4">Escuela De economia Chigüirista</h1>
+
+      <blockquote class="flow-text">"La economia es un fenomeno social y esta obedece a ella no en viceversa...Inventamos o Erramos"</blockquote>
+
+      <div class="center-align">
+        <a class="btn dropdown-button red accent-4" href="" data-activates="study">Areas De Interes.<i class="material-icons right">expand_more</i></a>
+
+        <!-- Dropdown Structure -->
+        <ul id="study" class="dropdown-content">
+          <li><a class="red-text text-darken-4" target="_blank" href="documentos/">Documentos.</a></li>          
+        </ul>
+      </div>      
+    </span>
+  </main>
+
+  <div class="fixed-action-btn">
+    <a href="#message" class="modal-trigger btn btn-large btn-floating amber waves-effect waves-light">
+      <i class="large material-icons">message</i>
+    </a>
+  </div>
+
+  <div id="message" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Contact</h4>
+      <p>coming soon...</p>
+    </div>
+    <div class="modal-footer">
+      <a href="" class="modal-action modal-close waves-effect btn-flat">close</a>
+    </div>
+  </div>
+
+  <footer class="page-footer red accent-4">
+    <div class="footer-copyright black">
+      <div class="container">
+        <time datetime="{{ site.time | date: '%Y' }}">&copy; @esc_chiguirista</time>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
